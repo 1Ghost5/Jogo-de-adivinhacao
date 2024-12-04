@@ -7,8 +7,8 @@ def gerar_numero_secreto():
 
 def verificar_tentativa(numero_secreto, tentativa):
     if tentativa < numero_secreto:
-        return "O número é maior!"
+        return "O número secreto é maior!"
     elif tentativa > numero_secreto:
-        return "O número é menor!"
+        return "O número secreto é menor!"
     else:
         return "Parabéns! Você acertou!"
